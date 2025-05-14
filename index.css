@@ -1,0 +1,23 @@
+
+
+
+body {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: #ffffff;
+}
+
+
+header{
+    background-color: #ebf0f3;
+    box-shadow: 0 0 6px 0 rgb(15, 0, 218);
+    border-radius: 4px;
+    margin: 4px;
+}
+
+h3{
+    color: rgb(111, 111, 209);
+}
+
+img{
+    box-shadow: 0 0 50px 0 rgba(28, 3, 255, 0.8);
+}
