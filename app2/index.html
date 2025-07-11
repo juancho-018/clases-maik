@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page - Bleux Template</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="header-inner container" role="banner">
+    <a href="#" class="logo" aria-label="Bleux logo and page name">
+      <img src="images/logo.png" alt="Bleux logo" class="logo-image" />
+      <div>Bleux <br /><small style="font-weight: 400; font-size: 12px; opacity: 0.75;">Page template</small></div>
+    </a>
+
+    <nav role="navigation" aria-label="Primary navigation">
+      <a href="#" aria-current="page" class="active">About</a>
+      <a href="#">Features</a>
+      <a href="#">Use case</a>
+      <a href="#">Pricing</a>
+      <a href="#" class="btn-download" role="button" tabindex="0">Download</a>
+    </nav>
+
+    <button aria-label="Open menu" class="hamburger" id="hamburger-btn" aria-controls="mobile-nav" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <nav id="mobile-nav" class="nav-mobile" aria-label="Mobile Navigation">
+    <a href="#" aria-current="page" class="active">About</a>
+    <a href="#">Features</a>
+    <a href="#">Use case</a>
+    <a href="#">Pricing</a>
+    <a href="#" class="btn-download" role="button" tabindex="0">Download</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero container" aria-label="Product introduction">
+    <div class="hero-left">
+      <h1 id="hero-title" class="hero-title">Product Page</h1>
+        <p class="hero-text">We built this template to help you create modern and beautiful marketing page.</p>
+        <div class="hero-buttons">
+            <button class="btn-primary" type="button">Download it now</button>
+            <button class="btn-secondary" type="button">Features</button>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <img src="/app2/images/hojasFondo.jpg" alt="Decoración hoja" class="hero-leaf" />
+        <img src="/app2/images/phone.png" alt="Imagen del celular" class="hero-image" />
+    </div>
+
+  </section>
+
+
+  <section class="features" aria-labelledby="features-title" role="region">
+    <h2 id="features-title">Fonctionnalités</h2>
+    <div class="feature-content">
+      <div class="feature-left">
+        <img src="images/laptop.png" class="feature-image" alt="Laptop screenshot" />
+      </div>
+
+      <div class="feature-right">
+        <h3>Alpha Screenshot</h3>
+        <p>This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product website easily with this template.</p>
+        <ul class="feature-list">
+          <li>✔ Marketing Page</li>
+          <li>✔ Based on Bootstrap 4</li>
+          <li>✔ Modern and creative</li>
+          <li>✔ Optimized for mobile devices</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing">
+    <h2 id="pricing-title">Plans & Pricing</h2>
+    <p class="description">Lorem ipsum dolor sit amet...</p>
+    <div class="pricing-cards">
+
+      <!-- Lite Card -->
+      <article class="card">
+        <div class="card-header">
+          <img src="images/hoja.png" alt="Lite icon" class="icon" />  <p class="textcard">Lite</p>
+        </div>
+        <div class="card-price">$0 <small>Free</small></div>
+        <ul class="features-list">
+          <li>✔ Full Components</li>
+          <li>✔ Future Updates</li>
+          <li>✔ Documentation</li>
+          <li>✔ Customer Support</li>
+          <li class="unavailable">✘ Cool Option</li>
+        </ul>
+        <p class="card-description">Cras purus odio, vestibulum in vulputate at.</p>
+        <button class="btn-subscribe" type="button">Subscribe Now</button>
+      </article>
+
+      <!-- Standard Card -->
+      <article class="card" role="listitem" aria-label="Standard plan for $24 per month">
+        <div class="card-header">
+          <img src="images/nube.png" alt="Standard icon" class="icon" /> Standard
+        </div>
+        <div class="card-price">$24 <small>per month</small></div>
+        <ul class="features-list">
+          <li>✔ Full Components</li>
+          <li>✔ Future Updates</li>
+          <li>✔ Documentation</li>
+          <li>✔ Customer Support</li>
+          <li class="unavailable">✘ Cool Option</li>
+        </ul>
+        <p class="card-description">Cras purus odio, vestibulum in vulputate at.</p>
+        <button class="btn-subscribe" type="button">Subscribe Now</button>
+      </article>
+
+      <article class="card" role="listitem" aria-label="Ultimate plan for $400 per user per year">
+        <div class="card-header">
+          <img src="images/maletin.png" alt="Ultimate icon" class="icon" /> Ultimate
+        </div>
+        <div class="card-price">$400 <small>per user / year</small></div>
+        <ul class="features-list">
+          <li>✔ Full Components</li>
+          <li>✔ Future Updates</li>
+          <li>✔ Documentation</li>
+          <li>✔ Customer Support</li>
+          <li class="unavailable">✘ Cool Option</li>
+        </ul>
+        <p class="card-description">Cras purus odio, vestibulum in vulputate at.</p>
+        <button class="btn-subscribe" type="button">Subscribe Now</button>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <div class="container" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; font-size: 0.9rem;">
+    <div>© Website made by <a href="mailto:contact@address.com" target="_blank" rel="noopener">Mlvfx</a> - contact@address.com</div>
+  </div>
+</footer>
+
+</body>
+</html>
